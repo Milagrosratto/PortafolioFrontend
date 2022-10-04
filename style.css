@@ -150,6 +150,55 @@
     animation-duration: 3s;
     animation-delay: 2s;
 }
+.menu{
+
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  display: flex;
+  margin: auto;
+  padding: auto;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.div_violeta{
+  background:linear-gradient(to right,rgb(173, 124, 213), #c51788);
+  
+  margin: 30px auto;
+  padding: 0 auto;
+  width: 15%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: bolder;
+  overflow: hidden;
+  text-align: center;
+}.div_rosa {
+  background: linear-gradient(to right, #c51788, rgb(173, 124, 213));
+  text-align: center;
+  margin: 30px auto;
+  padding: 0 auto;
+  width: 15%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+.div_rosa a,
+.div_violeta a {
+
+
+  color: #fff;
+  font-weight: bolder;
+
+  text-decoration: none;
+
+}
+
 @keyframes burbujas{
     0%{
         bottom: 0;
